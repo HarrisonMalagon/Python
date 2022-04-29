@@ -178,8 +178,8 @@ def run ():
     head()
     word=read_file() #Read the file and get a random word
     newword=normalize(word) #Normalize the word
-    word_hide=hide_word(newword) #Hide the word
-    play(newword, word_hide,word) #Play the game
+    word_hide=hide_word(newword) #Hide the word to show the user
+    play(newword, word_hide,word) #Play the game 
 
 if __name__=='__main__':
     run()
