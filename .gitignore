@@ -1,4 +1,5 @@
 venv/
 archivos/
 testprograms/
-.vscode/
+vscode/
+.vscode/settings.json
